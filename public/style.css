@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat {
+  width: 50vw;
+  height: 60vh;
+  background-color: aqua;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  flex: 1;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.message .me {
+  color: orange;
+}
+.actor {
+  font-weight: bold;
+}
+.text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
